@@ -9,7 +9,7 @@ require('dotenv').config();
 const app = express();
 app.use(cors(
   {
-    origin: 'https://move37capital2.netlify.app/', // Replace with your frontend domain
+    origin: 'https://move37capital2.netlify.app', // Replace with your frontend domain
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials:true
   }
