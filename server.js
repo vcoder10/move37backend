@@ -20,6 +20,7 @@ app.use(express.json());
 
 app.post('/api/contact', async (req, res) => {
   const { name, email, message } = req.body;
+  console.log('Origin:', req.headers.origin);
   console.log(name)
   console.log(email)
   console.log(message)
