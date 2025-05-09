@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const app = express();
 const corsOptions = {
-  origin: '*',
+  origin: 'https://move37capital2.netlify.app/contact',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 };
