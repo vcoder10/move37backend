@@ -3,7 +3,7 @@ const open = require('open');
 const readline = require('readline');
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URI = 'https://move37capital2.netlify.app/';
+const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
